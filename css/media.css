@@ -1,0 +1,94 @@
+
+
+/*/*/*
+	/************
+ 			For Header Section
+ 						************/
+
+
+/*@media (max-width: 700px){
+	.menu-option{
+		display: none;
+	}
+	.nav-menu-icon{
+		display: block;
+	}
+}	
+
+	/************
+ 			item Section Start
+ 						************/
+
+
+/*@media (min-width: 600px) and (max-width: 950px) {
+					.items-box-1 {
+					    
+					    padding: 0px 40px;
+					  }
+}
+@media (min-width: 350px) and (max-width: 450px) {
+					.items-box-1 {
+					    flex-direction: column;
+					    padding: 0px 20px;
+					  }
+
+}
+@media (max-width: 350px){
+				.items-box-1 {
+					    flex-direction: column;
+					    padding: 0px 5px;
+					  }*/
+}*/*/*/*/
+
+
+@media only screen and (max-width: 1320px){
+	header{
+		padding: 0 20px;
+	}
+}
+@media only screen and (max-width: 1100px){
+	header{
+		padding: 0 30px;
+	}
+}
+@media only screen and (max-width: 900px){
+	.hamburger{
+		display: block;
+		cursor: pointer;
+	}
+	.hamburger .line{
+
+		width: 30px;
+		height: 3px;
+		background: white;
+		margin: 6px 0px;
+		border-radius: 3px;
+	}
+	.nav-bar{
+		display: block;
+		position: absolute;
+		top: 80px;
+		left: 0;
+		right: 0;
+		width: 100vw;
+		height: 0;
+		background: black;
+		overflow: hidden;
+		transition: 2s all;
+
+	}
+	.line-icon{
+		background: red;
+	}
+
+	.nav-bar ul{
+		display: block;
+		width: fit-content;
+		margin: 80px auto 0 auto;
+		text-align: center;
+	}
+	.nav-bar ul li a{
+		margin-bottom: 12px;
+	}
+
+}
